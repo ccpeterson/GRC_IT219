@@ -1,0 +1,17 @@
+package GraphicsDemo;
+
+import acm.program.*;
+import acm.graphics.*;
+import java.awt.*;
+
+public class ACMGraphics extends GraphicsProgram {
+	public static final int APLLICATION_WIDTH = 400;
+	public static final int APLLICATION_HEIGHT = 400;
+	
+	public void run()
+	{
+		GOVal ball = new GOVal(50,50,25,40);
+		ball.setlColor(Color.red);
+		ball.setFilled(true);
+	}
+}

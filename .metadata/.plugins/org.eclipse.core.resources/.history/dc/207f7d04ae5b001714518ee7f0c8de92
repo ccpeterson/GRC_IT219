@@ -1,0 +1,23 @@
+/*   IT219 -Demo ACM Animation*  P.Turylo 01/04/2017*/
+import acm.program.*;
+import acm.graphics.*;
+import java.awt.*;
+public class RedLight extends GraphicsProgram
+{
+	public static final int APPLICATION_WIDTH = 400;
+	public static final int APPLICATION_HEIGHT =   400;
+	public void run()
+	{
+		GRect r1 =  new GRect(60,120,20,40);
+		add(r1);
+		GOval o1 =  new GOval(65,125,10,10);
+		add(o1);
+		o1.setColor(Color.RED);
+		o1.setFilled(true);
+		pause(2000);
+		o1.setFilled(false);
+		pause(2000);
+		o1.setFilled(true);
+		pause(2000);
+	}
+}
