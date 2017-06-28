@@ -45,3 +45,21 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-27 19:06:21.363
+!MESSAGE Failed to open search index.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-27 19:06:21.503
+!MESSAGE generateToken
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-27 19:06:21.535
+!MESSAGE generateToken
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-27 19:06:51.959
+!MESSAGE 'remote-models (http://download.eclipse.org/recommenders/models/kepler/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:pom:0.0.0'.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-06-27 19:06:51.959
+!MESSAGE Couldn't download search index. No (direct) internet connection? Need a proxy?
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-06-27 19:06:51.959
+!MESSAGE Failed to open search index.
